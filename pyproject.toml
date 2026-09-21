@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "auto-drive-sync"
+version = "1.0.0"
+description = "Sincronizador CLI de playlists do Spotify e YT Music para unidades USB automotivas."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "spotipy>=2.23.0",
+    "ytmusicapi>=1.7.0",
+    "yt-dlp>=2023.10.13",
+    "psutil>=5.9.0",
+    "mutagen>=1.46.0",
+    "rich>=13.0.0",
+    "questionary>=2.0.0",
+    "Pillow>=10.0.0",
+    "requests>=2.31.0",
+]
+[project.scripts]
+autodrive-sync = "auto_drive_sync.main:cli_entrypoint"
