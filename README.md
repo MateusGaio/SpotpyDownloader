@@ -1,4 +1,4 @@
-# AutoDrive-Sync
+# SpotpyDownloader
 
 CLI para baixar e sincronizar playlists do **Spotify** e **YT Music** em pendrives, com compatibilidade para sistemas de som automotivos legados (ID3v2.3, capas JPEG 500x500, FAT32).
 
