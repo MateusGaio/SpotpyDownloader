@@ -21,8 +21,8 @@ CLI para baixar e sincronizar playlists do **Spotify** e **YT Music** em pendriv
 ## Instalação
 
 ```bash
-git clone https://github.com/MateusGaio/auto_drive_sync.git
-cd auto_drive_sync
+git clone https://github.com/MateusGaio/SpotpyDownloader.git
+cd SpotpyDownloader
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -e .
@@ -47,7 +47,7 @@ No primeiro uso com uma playlist do Spotify, o app abre o navegador para login/a
 ```bash
 source .venv/bin/activate
 set -a; source .env; set +a   # se for usar Spotify
-autodrive-sync
+spotpydownloader
 ```
 
 O app pede a URL da playlist (Spotify ou YT Music), detecta pendrives conectados e sincroniza as faixas novas.

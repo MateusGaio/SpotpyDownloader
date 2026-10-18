@@ -15,7 +15,7 @@ console = Console()
 
 def display_header():
     panel = Panel(
-        Text('AutoDrive-Sync', style='bold blue'),
+        Text('SpotpyDownloader', style='bold blue'),
         subtitle='Sincronizador de playlists Spotify e YT Music para USB automotiva',
         style='blue',
     )
